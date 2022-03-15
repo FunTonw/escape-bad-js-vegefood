@@ -22,7 +22,6 @@ function renderData(info) {
   });
   table.innerHTML = str;
 }
-/* eslint-disable */ 
 axios.get(url)
   .then((res) => {
     data = res.data.filter((a) => a.作物名稱);
